@@ -58,7 +58,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/bg_slide.png);
+    background-image: url(../img/bg_slide.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -781,7 +781,11 @@ footer {
         gap: 20px;
     }
     .area_menu_rapido {
-        max-width: 240px;
+        max-width: 280px;
+    }
+
+    .area_contato {
+        max-width: 280px;
     }
 
 }
@@ -801,10 +805,6 @@ footer {
     }
 
 
-
-
-
-
 }
 
 
@@ -821,7 +821,6 @@ footer {
     .slide-1 .owl-dots {
         bottom: 20px;
     }
-
 
     .container_especialidades_int {
         gap: 20px;
@@ -871,6 +870,22 @@ footer {
         width: 40px;
         height: 40px;
     }
+
+    .slide-3 .owl-prev {
+        top: auto;
+        left: 100px;
+        bottom: -60px;
+    }
+    .slide-3 .owl-next {
+        top: auto;
+        right: 100px;
+        bottom: -60px;
+    }
+
+    .area_localizacao {
+        gap: 20px;
+    }
+
     .card_depoimentos {
         max-width: 315px;
     }
