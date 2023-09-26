@@ -170,12 +170,10 @@ a {
     margin: 0px;
 }
 
-
-
 .card_especialidades {
     width: 100%;
-    max-width: 280px;
-    height: 400px;
+    max-width: 400px;
+    height: 570px;
     background: #FCFDFF;
     border-radius: 30px;
     transition: all ease 200ms;
@@ -184,12 +182,12 @@ a {
 
 .card_especialidades_int {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: column;
     height: 100%;
     gap: 40px;
-    padding: 0px 30px;
+    padding: 25px 30px;
 }
 
 .card_especialidades:hover {
@@ -402,7 +400,7 @@ a {
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 1280px;
+    max-width: 1340px;
 }
 
 
@@ -411,15 +409,20 @@ a {
     align-items: flex-start;
     justify-content: space-between;
     width: 100%;
+    gap: 40px;
 }
 
+.area_servicos img {
+    max-width: 580px;
+    width: 100%;
+}
 
 .area_text_servicos {
     display: flex;
     flex-direction: column;
     gap: 40px;
     width: 100%;
-    max-width: 560px;
+    max-width: max-content;
 }
 
 
@@ -435,8 +438,9 @@ a {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-items: center;
-    gap: 20px;
+    align-items: flex-start;
+    row-gap: 40px;
+    column-gap: 30px;
 }
 
 .cards_servicos {
@@ -444,7 +448,7 @@ a {
     flex-direction: column;
     gap: 10px;
     width: 100%;
-    max-width: 220px;
+    max-width: 320px;
 }
 
 .box {
@@ -632,7 +636,7 @@ footer {
     flex-direction: column;
     gap: 25px;
     width: 100%;
-    max-width: 240px;
+    max-width: 280px;
 }
 
 
@@ -842,6 +846,12 @@ footer {
         font-size: 26px;
     }
 
+    .card_especialidades {
+        height: auto;
+    }
+    .card_especialidades_int {
+        gap: 20px;
+    }
 
     .area_servicos {
         gap: 20px;
