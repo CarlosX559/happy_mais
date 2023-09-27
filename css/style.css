@@ -316,13 +316,12 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
-    /* 24px */
     margin: 0px;
 }
 
 .card_profissionais {
     width: 100%;
-    max-width: 270px;
+    max-width: 340px;
     height: 400px;
     border-radius: 8px;
     background: #FFF;
@@ -376,7 +375,6 @@ a {
     margin: 0px;
 }
 
-
 .sub_title_profissional p {
     color: #575757;
     font-family: 'Poppins';
@@ -386,6 +384,8 @@ a {
     line-height: 150%;
     letter-spacing: -0.32px;
     margin: 0px;
+    height: 120px;
+    overflow: auto;
 }
 
 /*servicos*/
