@@ -174,7 +174,7 @@ a {
     width: 100%;
     max-width: 400px;
     height: 570px;
-    background: #FCFDFF;
+    background: #351E76;
     border-radius: 30px;
     transition: all ease 200ms;
     box-shadow: 10px 12px 17px -14px rgba(0, 0, 0, 0.25);
@@ -191,19 +191,23 @@ a {
 }
 
 .card_especialidades:hover {
-    background: #351E76;
+    background: #FCFDFF;
 }
 
-.card_especialidades:hover>.card_especialidades_int svg path {
+.card_especialidades .card_especialidades_int svg path {
     fill: #ffffff;
 }
 
+.card_especialidades:hover>.card_especialidades_int svg path {
+    fill: #351E76;
+}
+
 .card_especialidades:hover>.card_especialidades_int .area_text_especialidades .title_card_especialidade h2 {
-    color: #fff;
+    color: #351E76;
 }
 
 .card_especialidades:hover>.card_especialidades_int .area_text_especialidades .sub_title_card_especialidade p {
-    color: #fff;
+    color: #172048;
 }
 
 .area_text_especialidades {
@@ -213,7 +217,7 @@ a {
 }
 
 .title_card_especialidade h2 {
-    color: #351E76;
+    color: #ffffff;
     font-family: 'Poppins';
     font-size: 24px;
     font-weight: 700;
@@ -222,7 +226,7 @@ a {
 }
 
 .sub_title_card_especialidade p {
-    color: #172048;
+    color: #ffffff;
     font-family: 'Poppins';
     font-size: 14px;
     font-weight: 400;
