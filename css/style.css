@@ -492,13 +492,14 @@ a {
     justify-content: center;
     width: 100%;
     padding: 40px 0px 40px 0px;
+    overflow-x: hidden !important;
 }
 
 .container_depoimentos_int {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 600px;
+    max-width: 1280px;
     width: 100%;
 }
 
@@ -520,6 +521,11 @@ a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 0px;
+}
+
+.capcOd {
+    border-radius: 30px;
+    background: linear-gradient(58deg, #351E76 40.02%, #8388DE 108.44%);
 }
 
 .card_depoimentos {
@@ -766,6 +772,7 @@ footer {
 
     .area_depoimentos {
         gap: 20px;
+        padding: 0px 20px;
     }
 
     .card_depoimentos {
