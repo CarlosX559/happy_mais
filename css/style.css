@@ -1055,13 +1055,24 @@ footer {
 
     .area_bg_card {
         height: 300px;
+        margin: 0px 20px;
+    }
+    .title_bg_slide h2 {
+        font-size: 24px;
+    }
+
+    .sub_title_bg_slide p {
+        font-size: 16px;
     }
 
     .slide-1 .owl-dots {
         bottom: 20px;
     }
 
-
+    .area_especialidades {
+        padding: 0px 20px;
+        width: auto;
+    }
     .card_especialidades:hover>.card_especialidades_int .area_text_especialidades .sub_title_card_especialidade p {
         max-height: 100%;
         overflow: auto;
@@ -1164,4 +1175,12 @@ footer {
         max-width: 315px;
     }
 
+}
+
+@media(max-width: 425px) {
+    .area_texts_profissionais {
+        padding: 40px 0px 0px 10px;
+    }
+    
+    
 }
