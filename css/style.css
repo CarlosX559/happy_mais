@@ -792,6 +792,12 @@ footer {
     gap: 15px;
 }
 
+.area_sociais svg {
+    background-color: #351E76;
+    border-radius: 100px;
+    padding: 14px;
+}
+
 .title_contato h2 {
     color: #351E76;
     font-family: 'Poppins';
