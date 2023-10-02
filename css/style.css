@@ -764,8 +764,9 @@ footer {
 
 .area_endereco {
     display: flex;
+    flex-direction: column;
     align-items: flex-start;
-    gap: 15px;
+    gap: 10px;
 }
 
 .info_endereco p {
