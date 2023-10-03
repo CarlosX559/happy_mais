@@ -521,6 +521,7 @@ nav ul li a {
 .area_servicos img {
     max-width: 580px;
     width: 100%;
+    height: auto;
 }
 
 .area_text_servicos {
@@ -662,9 +663,26 @@ nav ul li a {
     width: 100%;
 }
 
+.area_avaliacao {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.area_estrelas {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.area_estrelas img {
+    max-width: 20px;
+    width: 100%;
+}
+
 .title_depoimentos h2 {
     color: #FFF4EB;
-    font-size: 32px;
+    font-size: 26px;
     font-weight: 700;
     line-height: 100%;
     letter-spacing: -0.64px;
@@ -673,7 +691,7 @@ nav ul li a {
 
 .sub_title_depoimentos p {
     color: #FFF;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
@@ -830,10 +848,12 @@ footer {
         padding: 0px 0px;
         width: auto;
     }
+
     .container_menu {
         border-radius: 0px;
         max-width: 100%;
     }
+
     .menu_mobile nav ul li a:hover {
         color: #BE868C;
     }
@@ -1064,6 +1084,7 @@ footer {
         height: 300px;
         margin: 0px 20px;
     }
+
     .title_bg_slide h2 {
         font-size: 24px;
     }
@@ -1080,11 +1101,16 @@ footer {
         padding: 0px 20px;
         width: auto;
     }
+
     .card_especialidades:hover>.card_especialidades_int .area_text_especialidades .sub_title_card_especialidade p {
         max-height: 100%;
         overflow: auto;
         opacity: 1;
         transform: scaleY(1);
+    }
+
+    .container_depoimentos {
+        padding: 40px 0px 60px 0px;
     }
 
     .container_especialidades_int {
@@ -1174,6 +1200,11 @@ footer {
         bottom: -60px;
     }
 
+    .sub_title_depoimentos {
+        height: 200px;
+        overflow-x: scroll;
+    }
+
     .area_localizacao {
         gap: 20px;
     }
@@ -1188,6 +1219,6 @@ footer {
     .area_texts_profissionais {
         padding: 40px 0px 0px 10px;
     }
-    
-    
+
+
 }
