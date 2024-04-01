@@ -12,6 +12,7 @@ body {
 
 a {
     text-decoration: none;
+    max-width: max-content;
 }
 
 html {
@@ -23,6 +24,20 @@ header {
     justify-content: center;
     width: 100%;
     padding: 20px 0px;
+}
+
+.area_whatsapp {
+    position: fixed;
+    display: flex;
+    right: 20px;
+    bottom: 20px;
+    height: 68px;
+    z-index: 99;
+}
+
+.area_whatsapp img {
+    width: 68px;
+    height: 68px;
 }
 
 .menu_mobile {
@@ -226,13 +241,137 @@ nav ul li a {
     margin: 0px;
 }
 
+/*Avaliação*/
 
-/*Especialidades*/
-.container_especialidades {
+.container_avaliacao {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #2F1771;
+    margin: 40px 0px 0px 0px;
+}
+
+.container_avaliacao_int {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1280px;
+    width: 100%;
+}
+
+.area_avaliacao_neuro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+}
+
+.area_avaliacao_neuro img {
+    max-width: 540px;
+    width: 100%;
+    height: auto;
+}
+
+.area_texts_avaliacao {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 520px;
+    width: 100%;
+}
+
+.info_avaliacao p {
+    color: #FCFBFE;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
+}
+
+.info_avaliacao p b {
+    font-weight: 700;
+}
+
+.info_avaliacao p u {
+    font-weight: 700;
+}
+
+.container_avaliacao_2 {
     display: flex;
     justify-content: center;
     width: 100%;
     padding: 40px 0px 40px 0px;
+}
+
+.area_avaliacao_neuro_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+}
+
+.area_avaliacao_neuro_2 img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+
+.title_avaliacao h2 {
+    color: #000;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 134%;
+    margin: 0px;
+}
+
+.title_avaliacao h2 b {
+    font-weight: 700;
+}
+
+.info_avaliacao_2 p {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
+}
+
+.info_avaliacao_2 p b {
+    font-weight: 700;
+}
+
+.btn_contato.avaliacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: #351E76;
+    padding: 15px 20px;
+    transition: all ease 300ms;
+    max-width: 360px;
+}
+
+.btn_contato.avaliacao h2 {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px;
+}
+
+
+/*Especialidades*/
+
+#especialidades {
+    padding: 40px 0px 40px 0px;
+    width: 100%;
+}
+
+.container_especialidades {
+    display: flex;
+    justify-content: center;
 }
 
 .container_especialidades_int {
@@ -251,7 +390,6 @@ nav ul li a {
     flex-wrap: wrap;
     align-items: center;
     gap: 20px;
-    width: 100%;
 }
 
 .title_especialidades h2 {
@@ -278,7 +416,6 @@ nav ul li a {
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    height: 100%;
     gap: 40px;
     padding: 25px 30px;
 }
@@ -303,6 +440,34 @@ nav ul li a {
     color: #172048;
 }
 
+.btn_contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background: #351E76 11.01%;
+    padding: 5px 20px;
+    transition: all ease 300ms;
+}
+
+.btn_contato:hover {
+    background: #FCFDFF;
+    box-shadow: 10px 12px 17px -14px rgba(0, 0, 0, 0.25);
+}
+
+.btn_contato:hover>h2 {
+    color: #172048;
+}
+
+.btn_contato h2 {
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0px;
+}
+
 .area_text_especialidades {
     display: flex;
     flex-direction: column;
@@ -325,6 +490,28 @@ nav ul li a {
     font-weight: 400;
     line-height: 185%;
     margin: 0px;
+}
+
+.container_instagram {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow-x: hidden !important;
+}
+
+.container_instagram_int {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+}
+
+.area_instragram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 
@@ -505,6 +692,8 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 40px;
     width: 100%;
     max-width: 1340px;
 }
@@ -830,6 +1019,25 @@ footer {
 
 @media(max-width: 1024px) {
 
+    .container_avaliacao {
+        padding: 0px 0px 40px 0px;
+    }
+
+    .area_avaliacao_neuro {
+        flex-direction: column-reverse;
+        gap: 0px;
+        padding: 0px 20px;
+    }
+
+    .area_avaliacao_neuro_2 {
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+
+    .title_avaliacao h2 {
+        font-size: 28px;
+        line-height: 120%;
+    }
 
     nav ul {
         display: none;
@@ -969,7 +1177,7 @@ footer {
 
 
     .area_slide_total {
-        max-width: 500px;
+        max-width: 700px;
         width: 100%;
     }
 
@@ -1012,6 +1220,24 @@ footer {
         width: 100%;
     }
 
+    .area_cards_servicos {
+        justify-content: center;
+    }
+
+    .area_text_servicos {
+        padding: 0px 20px;
+        max-width: 685px;
+        width: auto;
+    }
+
+    .area_whatsapp {
+        height: 55px;
+    }
+
+    .area_whatsapp img {
+        width: 55px;
+        height: 55px;
+    }
 
     .title_depoimentos_area h2 {
         font-size: 26px;
@@ -1019,7 +1245,6 @@ footer {
 
     .area_depoimentos {
         gap: 20px;
-        padding: 0px 20px;
     }
 
     .card_depoimentos {
@@ -1172,6 +1397,15 @@ footer {
     .area_servicos {
         gap: 20px;
         padding: 0px 20px;
+        width: auto;
+    }
+
+    .cards_servicos {
+        max-width: 375px;
+    }
+
+    .area_text_servicos {
+        padding: 0px;
     }
 
     .area_text_servicos {
@@ -1217,7 +1451,7 @@ footer {
 
 @media(max-width: 425px) {
     .area_texts_profissionais {
-        padding: 40px 0px 0px 10px;
+        padding: 40px 0px 0px 20px;
     }
 
 
